@@ -39,3 +39,14 @@ h1 {
     padding: 10px;
  }
 
+ ul>li {
+     list-style-type: circle;
+     list-style-position: inside;
+     padding: 25px;
+ }
+
+ ol>li {
+    list-style-position: inside;
+    padding: 25px;
+ }
+
