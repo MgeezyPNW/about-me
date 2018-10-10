@@ -20,7 +20,7 @@ if (answerOne === 'yes' || answerOne === 'y') {
 //Question 2
 var answerTwo = prompt('Do I enjoy Spongebob still as an adult?').toLowerCase();
 
-if (answerTwo === 'yes' || answerTwo === 'y') { 
+if (answerTwo === 'yes' || answerTwo === 'y') {
   alert('Admittedly, yes... yes I do. Don\'t hate!');
   console.log('The user got Question 1 right.');
 } else {
@@ -59,4 +59,4 @@ if (answerFive === 'yes' || answerFive === 'y') {
 } else {
   alert('RUN. HIDE. SHE KNOWS YOU SAID THAT.');
   console.log('The user got Question 1 wrong.');
-} 
+}

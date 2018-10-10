@@ -1,4 +1,41 @@
 body { 
-    background: navy;
-    color: white;
+    background: wheat;
+    color: black;
 }
+
+h1 {
+   width: 100%;
+   height: auto;
+   font-weight: bold;
+   font-size: 25px;
+   text-align: center;
+   padding: 10px;
+}
+
+#subtitle {
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+ }
+
+ h2 {
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+ }
+
+ h3 {
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+ }
+
