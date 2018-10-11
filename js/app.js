@@ -10,28 +10,34 @@ var username = prompt('Let us start by learning YOUR name. What is your name?');
 alert('Welcome, ' + username + '! Let\'s get started on the quiz!');
 
 //Question 1
-var answerOne = prompt('Do I like to play video games?').toLowerCase();
+function questionOne(){
+  var answerOne = prompt('Do I like to play video games?').toLowerCase();
 
-if (answerOne === 'yes' || answerOne === 'y') {
-  alert('Ding Ding Ding! You bet I do.');
-  console.log('The user got Question 1 right.');
-  score += 1
-} else {
-  alert('Well you\'re wrong... so...');
-  console.log('The user got Question 1 wrong.');
+  if (answerOne === 'yes' || answerOne === 'y') {
+    alert('Ding Ding Ding! You bet I do.');
+    console.log('The user got Question 1 right.');
+    score += 1
+  } else {
+    alert('Well you\'re wrong... so...');
+    console.log('The user got Question 1 wrong.');
+  }
 }
+questionOne();
 
 //Question 2
-var answerTwo = prompt('Do I enjoy Spongebob still as an adult?').toLowerCase();
+function questionTwo(){
+  var answerTwo = prompt('Do I enjoy Spongebob still as an adult?').toLowerCase();
 
-if (answerTwo === 'yes' || answerTwo === 'y') {
-  alert('Admittedly, yes... yes I do. Don\'t hate!');
-  console.log('The user got Question 1 right.');
-  score += 1
-} else {
-  alert('Yeah... totally not a Spongebob fan... (Just kidding, I love Spongebob and you are wrong!!).');
-  console.log('The user got Question 1 wrong.');
+  if (answerTwo === 'yes' || answerTwo === 'y') {
+    alert('Admittedly, yes... yes I do. Don\'t hate!');
+    console.log('The user got Question 1 right.');
+    score += 1
+  } else {
+    alert('Yeah... totally not a Spongebob fan... (Just kidding, I love Spongebob and you are wrong!!).');
+    console.log('The user got Question 1 wrong.');
+  }
 }
+questionTwo();
 
 //Question 3
 var answerThree = prompt('Do I think Le\'veon Bell of the Pittsburg Steelers should sign his contract?').toLowerCase();
@@ -85,7 +91,7 @@ for (var i = 0; i < 4; i++) {
     } else if (userguess > correctnum) {
       if (i < 3) {
       alert('Too high! Try again!');
-      console.log('User guessed too high!');\
+      console.log('User guessed too high!');
       }
     } else {
       if (i < 3) {
@@ -123,4 +129,5 @@ for (i = 0; i < 6; i++) {
   }
 }
 
-alert('You received a score of ' + score + '...')
+alert('You received a score of ' + score + '...');
+}
