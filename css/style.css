@@ -31,22 +31,38 @@ h1 {
  }
 
  h3 {
-    width: 100%;
+    width: 50%;
     height: auto;
     font-weight: bold;
     font-size: 15px;
-    text-align: left;
+    text-align: center;
     padding: 10px;
+    margin: auto;
+}
+
+ ul {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    background: brown;
  }
 
  ul>li {
      list-style-type: circle;
      list-style-position: inside;
-     padding: 25px;
+     padding: 5px;
+     background: wheat;
+     color: brown;
  }
 
  ol>li {
     list-style-position: inside;
-    padding: 25px;
+    padding: 5px;
+ }
+
+ #header {
+     border: 2px solid green;
+     border-radius: 5px;
  }
 
