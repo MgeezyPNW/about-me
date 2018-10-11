@@ -40,16 +40,19 @@ function questionTwo(){
 questionTwo();
 
 //Question 3
-var answerThree = prompt('Do I think Le\'veon Bell of the Pittsburg Steelers should sign his contract?').toLowerCase();
+function questionThree(){
+  var answerThree = prompt('Do I think Le\'veon Bell of the Pittsburg Steelers should sign his contract?').toLowerCase();
 
-if (answerThree === 'yes' || answerThree === 'y') {
-  alert('Let\'s put it this way... for $800k per week I would sign just about anything.');
-  console.log('The user got Question 1 right.');
-  score += 1
-} else {
-  alert('You are wrong! He is crushing my fantasy team this year by not playing...');
-  console.log('The user got Question 1 wrong.');
+  if (answerThree === 'yes' || answerThree === 'y') {
+    alert('Let\'s put it this way... for $800k per week I would sign just about anything.');
+    console.log('The user got Question 1 right.');
+    score += 1
+  } else {
+    alert('You are wrong! He is crushing my fantasy team this year by not playing...');
+    console.log('The user got Question 1 wrong.');
+  }
 }
+questionThree();
 
 //Question 4
 var answerFour = prompt('Do I believe there is life in Outer Space?').toLowerCase();
