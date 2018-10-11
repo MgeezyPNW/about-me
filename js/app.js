@@ -55,16 +55,19 @@ function questionThree(){
 questionThree();
 
 //Question 4
-var answerFour = prompt('Do I believe there is life in Outer Space?').toLowerCase();
+function questionFour(){
+  var answerFour = prompt('Do I believe there is life in Outer Space?').toLowerCase();
 
-if (answerFour === 'yes' || answerFour === 'y') {
-  alert('Yeah. It would be hard not to believe there isn\'t.');
-  console.log('The user got Question 1 right.');
-  score += 1
-} else {
-  alert('No. I watch far too much \'Ancient Aliens\' to not believe.');
-  console.log('The user got Question 1 wrong.');
+  if (answerFour === 'yes' || answerFour === 'y') {
+    alert('Yeah. It would be hard not to believe there isn\'t.');
+    console.log('The user got Question 1 right.');
+    score += 1
+  } else {
+    alert('No. I watch far too much \'Ancient Aliens\' to not believe.');
+    console.log('The user got Question 1 wrong.');
+  }
 }
+questionFour();
 
 //Question 5
 var answerFive = prompt('Is my fiance smarter than me?').toLowerCase();
