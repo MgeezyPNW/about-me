@@ -70,16 +70,19 @@ function questionFour(){
 questionFour();
 
 //Question 5
-var answerFive = prompt('Is my fiance smarter than me?').toLowerCase();
+function questionFive(){
+  var answerFive = prompt('Is my fiance smarter than me?').toLowerCase();
 
-if (answerFive === 'yes' || answerFive === 'y') {
-  alert('You are smart to say yes. She is probably listening.');
-  console.log('The user got Question 1 right.');
-  score += 1
-} else {
-  alert('RUN. HIDE. SHE KNOWS YOU SAID THAT.');
-  console.log('The user got Question 1 wrong.');
+  if (answerFive === 'yes' || answerFive === 'y') {
+    alert('You are smart to say yes. She is probably listening.');
+    console.log('The user got Question 1 right.');
+    score += 1
+  } else {
+    alert('RUN. HIDE. SHE KNOWS YOU SAID THAT.');
+    console.log('The user got Question 1 wrong.');
+  }
 }
+questionFive();
 
 //Question 6
 var correctnum = 6;
