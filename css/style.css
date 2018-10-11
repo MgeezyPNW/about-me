@@ -3,6 +3,11 @@ body {
     color: rgb(36, 36, 36);
 }
 
+#header {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
 h1 {
     width: 100%;
     height: auto;
@@ -58,11 +63,6 @@ ol>li {
     list-style-position: inside;
     padding: 5px;
     color:  rgb(36, 36, 36);
-}
-
-#header {
-        border: 2px solid green;
-        border-radius: 5px;
 }
 
 .indent {
