@@ -91,8 +91,8 @@ function questionSix(){
   for (var i = 0; i < 4; i++) {
     var userguess = Number(prompt('Okay, let us switch it up. You have four attempts to guess my favorite number between 1 and 20... Go!'));
     console.log(userguess);
-  
-  if (i < 3) {
+
+    if (i < 3) {
       if (userguess === correctnum) {
         alert('Congratulations you got it right!');
         console.log('User got it right');
@@ -100,39 +100,33 @@ function questionSix(){
         break;
       } else if (userguess > correctnum) {
         if (i < 3) {
-        alert('Too high! Try again!');
-        console.log('User guessed too high!');
+          alert('Too high! Try again!');
+          console.log('User guessed too high!');
         }
       } else {
         if (i < 3) {
-        alert('Too low! Try again');
-        console.log('User guessed too low!')
+          alert('Too low! Try again');
+          console.log('User guessed too low!')
+        }
+      }
+      if (i === 3) {
+        alert('Sorry, you ran out of tries!')
       }
     }
-    
-    if (i === 3) {
-      alert('Sorry, you ran out of tries!')
-    }
   }
-}
 }
 questionSix();
 
 //Question 7
 function questionSeven(){
   var myCities = ['gig harbor', 'pullman'];
-  var arrayLength = myCities.length;
-  var roundNumber =0;
   var i;
-  var msg = '';
 
   for (i = 0; i < 6; i++) {
     var userguess=prompt('Okay, this is the final question: Which two WA cities have I lived in? Hint: 1 is on the east side of the state.').toLowerCase();
-    roundNumber = (i + 1);
-    msg += 'Round ' + roundNumber + ': ';
   
     if (myCities.includes(userguess)) {
-      alert('Wow! You know me too well.');
+      alert('Wow! You know me too well. I have lived in Pullman, WA and Gig Harbor, WA');
       console.log('User got it right!')
       score += 1
       break;
