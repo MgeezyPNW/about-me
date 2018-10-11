@@ -1,68 +1,75 @@
 body { 
-    background: wheat;
-    color: black;
+    background: #fdf9f2;
+    color: rgb(36, 36, 36);
 }
 
 h1 {
-   width: 100%;
-   height: auto;
-   font-weight: bold;
-   font-size: 25px;
-   text-align: center;
-   padding: 10px;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
 }
 
 #subtitle {
     width: 100%;
     height: auto;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding: 10px;
- }
-
- h2 {
-    width: 100%;
-    height: auto;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: left;
-    padding: 10px;
- }
-
- h3 {
-    width: 50%;
-    height: auto;
-    font-weight: bold;
-    font-size: 15px;
-    text-align: center;
-    padding: 10px;
-    margin: auto;
 }
 
- ul {
+h2 {
+    width: 500px;
+    height: auto;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    padding: 20px 20px 20px 50px;
+    margin:5px;
+}
+
+p {
+    width: 500px;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    margin:5px; 
+}
+
+ul {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
     padding: 10px;
-    background: brown;
- }
+}
 
- ul>li {
-     list-style-type: circle;
-     list-style-position: inside;
-     padding: 5px;
-     background: wheat;
-     color: brown;
- }
+ol {
+    margin: auto;
+    width: 50%;
+    padding: 10px; 
+}
 
- ol>li {
+ul>li {
+    list-style-type: circle;
     list-style-position: inside;
     padding: 5px;
- }
+    color:  rgb(36, 36, 36);
+}
 
- #header {
-     border: 2px solid green;
-     border-radius: 5px;
- }
+ol>li {
+    list-style-position: inside;
+    padding: 5px;
+    color:  rgb(36, 36, 36);
+}
 
+#header {
+        border: 2px solid green;
+        border-radius: 5px;
+}
+
+.indent {
+    list-style-type: square;
+    margin-left: 30px;
+}
