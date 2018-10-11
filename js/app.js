@@ -119,26 +119,29 @@ function questionSix(){
 questionSix();
 
 //Question 7
-var myCities = ['gig harbor', 'pullman'];
-var arrayLength = myCities.length;
-var roundNumber =0;
-var i;
-var msg = '';
+function questionSeven(){
+  var myCities = ['gig harbor', 'pullman'];
+  var arrayLength = myCities.length;
+  var roundNumber =0;
+  var i;
+  var msg = '';
 
-for (i = 0; i < 6; i++) {
-  var userguess=prompt('Okay, this is the final question: Which two WA cities have I lived in? Hint: 1 is on the east side of the state.').toLowerCase();
-  roundNumber = (i + 1);
-  msg += 'Round ' + roundNumber + ': ';
- 
-  if (myCities.includes(userguess)) {
-    alert('Wow! You know me too well.');
-    console.log('User got it right!')
-    score += 1
-    break;
-  } else {
-    alert('Guess again!');
-    console.log('User got it wrong, trying again.');
+  for (i = 0; i < 6; i++) {
+    var userguess=prompt('Okay, this is the final question: Which two WA cities have I lived in? Hint: 1 is on the east side of the state.').toLowerCase();
+    roundNumber = (i + 1);
+    msg += 'Round ' + roundNumber + ': ';
+  
+    if (myCities.includes(userguess)) {
+      alert('Wow! You know me too well.');
+      console.log('User got it right!')
+      score += 1
+      break;
+    } else {
+      alert('Guess again!');
+      console.log('User got it wrong, trying again.');
+    }
   }
 }
+questionSeven();
 
 alert('You received a score of ' + score + '...');
