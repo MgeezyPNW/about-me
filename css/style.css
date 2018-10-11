@@ -40,14 +40,10 @@ p {
 }
 
 ul {
-    margin: auto;
-    width: 50%;
     padding: 10px;
 }
 
 ol {
-    margin: auto;
-    width: 50%;
     padding: 10px; 
 }
 
@@ -72,4 +68,45 @@ ol>li {
 .indent {
     list-style-type: square;
     margin-left: 30px;
+}
+
+#upperleft {
+    border: 2px solid green;
+    border-radius: 5px;
+    position:absolute;
+    top: 175px;
+    right: 620px;
+}
+
+#upperright {
+    border: 2px solid green;
+    border-radius: 5px;
+    position:absolute;
+    top: 175px;
+    right: 20px;
+    height: 270px;
+}
+
+#lowerleft {
+    border: 2px solid green;
+    border-radius: 5px;
+    position:absolute;
+    top: 500px;
+    right: 620px;
+}
+
+#lowerright {
+    border: 2px solid green;
+    border-radius: 5px;
+    position:absolute;
+    top: 500px;
+    right: 20px;
+}
+
+#favMovies{
+    border: 2px solid green;
+    border-radius: 5px;
+    position:absolute;
+    top: 815px;
+    right: 620px; 
 }
