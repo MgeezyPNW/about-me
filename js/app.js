@@ -75,19 +75,30 @@ var correctnum = 6;
 for (var i = 0; i < 4; i++) {
   var userguess = Number(prompt('Okay, let us switch it up. You have four attempts to guess my favorite number between 1 and 20... Go!'));
   console.log(userguess);
-  if (userguess === correctnum) {
-    alert('Congratulations you got it right!');
-    console.log('User got it right');
-    score += 1
-    break
-  } else if (userguess > correctnum) {
-    alert('Too high! Try again!');
-    console.log('User guessed too high!');
-  } else {
-    alert('Too low! Try again');
-    console.log('User guessed too low!')
+  
+  if (i < 3) {
+    if (userguess === correctnum) {
+      alert('Congratulations you got it right!');
+      console.log('User got it right');
+      score += 1
+      break;
+    } else if (userguess > correctnum) {
+      if (i < 3) {
+      alert('Too high! Try again!');
+      console.log('User guessed too high!');\
+      }
+    } else {
+      if (i < 3) {
+      alert('Too low! Try again');
+      console.log('User guessed too low!')
+    }
+  }
+  
+  if (i === 3) {
+    alert('Sorry, you ran out of tries!')
   }
 }
+
 
 //Question 7
 var myCities = ['gig harbor', 'pullman'];
@@ -96,7 +107,7 @@ var roundNumber =0;
 var i;
 var msg = '';
 
-for (i = 0; i < 5; i++) {
+for (i = 0; i < 6; i++) {
   var userguess=prompt('Okay, this is the final question: Which two WA cities have I lived in? Hint: 1 is on the east side of the state.').toLowerCase();
   roundNumber = (i + 1);
   msg += 'Round ' + roundNumber + ': ';
@@ -105,7 +116,7 @@ for (i = 0; i < 5; i++) {
     alert('Wow! You know me too well.');
     console.log('User got it right!')
     score += 1
-    break
+    break;
   } else {
     alert('Guess again!');
     console.log('User got it wrong, trying again.');
