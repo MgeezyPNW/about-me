@@ -1,15 +1,19 @@
 body { 
-    background: #b3b2b2;
+    /* background: #b3b2b2; */
     color: rgb(36, 36, 36);
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4em;
+    background-image: url(img/MGP_Logo.png);
 }
 
 #header {
     border: 2px solid green;
     border-radius: 5px;
     box-shadow: 0px 0px 15px black;
-    width: 75%;
+    width: 50%;
     margin: auto;
     margin-top: 20px;
+    line-height: 1em;
 }
 
 h1 {
@@ -35,17 +39,14 @@ h2 {
     height: auto;
     font-weight: bold;
     font-size: 18px;
-    text-align: left;
-    padding: 20px 20px 20px 50px;
-    margin:5px;
+    padding: 10px;
 }
 
 p {
     width: 500px;
+    height: auto;
     font-size: 14px;
-    text-align: left;
-    padding: 20px;
-    margin:5px; 
+    padding: 10px;
 }
 
 ul {
@@ -79,60 +80,65 @@ ol>li {
 #upperleft {
     border: 2px solid green;
     border-radius: 5px;
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 10px black;
     position:absolute;
     top: 175px;
     left: 100px;
     padding: 10px;
     width: 400px;
     margin: auto;
+    text-align: left;
 }
 
 #upperright {
     border: 2px solid green;
     border-radius: 5px;
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 10px black;
     position:absolute;
     top: 175px;
     right: 100px;
-    height: 270px;
+    height: auto;
     padding: 10px;
     width: 400px;
     margin: auto;
+    text-align: left;
 }
 
 #lowerleft {
     border: 2px solid green;
     border-radius: 5px;
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 10px black;
     position:absolute;
-    top: 475px;
+    top: 500px;
     left: 100px;
     padding: 10px;
     width: 400px;
     margin: auto;
+    text-align: left;
 }
 
 #lowerright {
     border: 2px solid green;
     border-radius: 5px;
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 10px black;
     position:absolute;
-    top: 500px;
+    top: 420px;
     right: 100px;
     padding: 10px;
     width: 400px;
     margin: auto;
+    text-align: left;
 }
 
 #favMovies{
     border: 2px solid green;
     border-radius: 5px;
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 10px black;
     position:absolute;
-    top: 805px;
+    top: 910px;
     left: 100px;
     padding: 10px;
     width: 400px;
     margin: auto;
-}
+    text-align: left;
+} 
