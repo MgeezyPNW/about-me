@@ -1,9 +1,9 @@
 body { 
-    /* background: #b3b2b2; */
+    /* background-image: url("C:\Users\mgeor\CodeFellows\Lab 2\about-me\img\MGP_Logo.png"); */
+    background: #b3b2b2;
     color: rgb(36, 36, 36);
     font-family: Helvetica, sans-serif;
     line-height: 1.4em;
-    background-image: url(img/MGP_Logo.png);
 }
 
 #header {
